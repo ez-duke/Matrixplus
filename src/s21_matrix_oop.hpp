@@ -1,5 +1,5 @@
-#ifndef S21_MATRIX_OOP_H
-#define S21_MATRIX_OOP_H
+#ifndef S21_MATRIX_OOP_HPP
+#define S21_MATRIX_OOP_HPP
 
 #include <iostream>
 
