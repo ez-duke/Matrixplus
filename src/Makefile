@@ -7,7 +7,7 @@ NAME=s21_matrix_oop
 TNAME=$(NAME)_tests
 LIB_NAME=$(NAME).a
 UNAME=$(shell uname -s)
-HEADERS=*.h tests/*.hpp
+HEADERS=*.hpp tests/*.hpp
 
 ifeq ($(UNAME),Linux)
 	LIBS=-lgtest -lgcov -lm
